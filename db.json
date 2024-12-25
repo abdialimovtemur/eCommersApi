@@ -1,0 +1,54 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Smartphone XYZ",
+            "description": "High-quality smartphone with 128GB storage.",
+            "price": 300,
+            "stock": 50,
+            "category": "Electronics",
+            "image": "smartphone_xyz.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Laptop Pro",
+            "description": "Powerful laptop for work and gaming.",
+            "price": 800,
+            "stock": 20,
+            "category": "Computers",
+            "image": "laptop_pro.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Wireless Earbuds",
+            "description": "Compact and stylish wireless earbuds.",
+            "price": 50,
+            "stock": 100,
+            "category": "Accessories",
+            "image": "earbuds.jpg"
+        }
+    ],
+    "cart": {
+        "items": [],
+        "totalAmount": 0
+    },
+    "sections": [
+        {
+            "id": 1,
+            "title": "New Arrivals",
+            "description": "Check out the latest products in our store.",
+            "products": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Best Sellers",
+            "description": "Most popular products among our customers.",
+            "products": [
+                3
+            ]
+        }
+    ]
+}
